@@ -1,0 +1,109 @@
+﻿body {
+	margin: 25px;
+	padding: 14px;
+	background-image: url('../Image/image.jpg');
+	font-size: 18px;
+	text-align: center;
+	color: black;
+	line-height: 1.5;
+	font-family: 'openSans';
+}
+/*Securing line spacing*/
+div {
+	margin-bottom: 20px;
+}
+#form1 {
+	background-color: #FFF8F0;
+	padding: 50px;
+	border-radius: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	text-align: center;
+	box-shadow: 5px 5px 20px 10px orange;
+}
+
+h1 {
+	color: white;
+	background-color: orange;
+	padding: 10px;
+	margin: 0;
+	border-radius: 10px;
+}
+/*Name of the User*/
+#welcomeLabel {
+	color: #E45931; 
+	font-weight: bold;
+
+}
+
+/*Basic Button*/
+input[type="submit"] {
+	cursor: pointer;
+	color: white;
+	background-color: orange;
+	border-color:orange;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 22px;
+	padding: 10px 20px;
+}
+
+/*CheckBox Table in PickingToppings.aspx*/
+/*sumTable in OrderSum.aspx*/
+#toppingsTable, #sumTable {
+	margin: 0 auto;
+	padding: 10px 20px;
+
+}
+
+#sumTableList {
+	background-color: Orange;
+	border-radius: 10px;
+	color: white;
+	text-align: left;
+	padding: 10px 20px;
+}
+/*CheckBox List in PickingToppings.aspx*/
+/*sumTable List in OrderSum.aspx*/
+#checkBoxList {
+	text-align: left;
+	padding: 10px 20px;
+	background-color: orange;
+	color: white;
+	border-radius: 10px;
+	font-weight: bold;
+}
+
+#checkBoxList p, #sumTableList p {
+	margin: 10px;
+	padding: 10px;
+}
+
+#checkBoxList input[type='checkbox'] {
+	margin-right: 10px; 
+}
+
+
+/*priceLabel*/
+/*toppingLabel*/
+#priceLabel, #toppingLabel {
+	font-size: 22px;
+	color: #E45931;
+	font-weight: bold;
+}
+
+#cancelBtn {
+	cursor: pointer;
+	color: white;
+	background-color: grey;
+	border-color: grey;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 22px;
+	padding: 10px 20px;
+}
+
+/*Font*/
+@font-face {
+	font-family: 'openSans';
+	src: url('../Font/static/OpenSans-Regular.ttf') format('opentype');
+}
